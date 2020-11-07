@@ -56,7 +56,7 @@ class TransactionsRepository {
 
     if (type === 'outcome' && value > total) {
       throw Error(
-        'The outcome transaction has a value greather than current balance.',
+        'The outcome transaction has a value greater than current balance.',
       );
     }
 
